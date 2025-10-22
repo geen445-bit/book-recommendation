@@ -21,8 +21,8 @@
   
   .playpen-sans {
     font-family: 'Playpen Sans Thai', sans-serif; /* กำหนดฟอนต์ Playpen Sans Thai */
-    color:  white;
-    font-size: 70px;
+    color:  rgb(255, 255, 255);
+    font-size: 80px;
   }
 
   .center-content {
@@ -39,9 +39,12 @@
     font-family: 'Noto Serif Thai', serif; /* ใช้ฟอนต์ Noto Serif Thai */
     font-size: 30px;  /* ขนาดตัวอักษรที่ต้องการ */
     line-height: 1.5; /* เพิ่มระยะห่างระหว่างบรรทัด */
-  }
-
-    div {
+    font-weight: 500;
+   }
+   
+    
+    
+       div {
       margin-bottom: 20px;
       
       padding: 10px;  /* เพิ่มพื้นที่ภายใน */
@@ -109,3 +112,30 @@
       margin: 0;           /* ลบ margin ด้วยถ้าไม่จำเป็น */
       
     }
+
+    .font-mitr {
+  font-family: 'Mitr', sans-serif;
+  font-size: 35px;
+}
+
+
+ .font-mitr2 {
+  font-family: 'Mitr', sans-serif;
+  font-size: 20px;
+}
+
+ .font-mitr3 {
+  font-family: 'Mitr', sans-serif;
+  font-size: 35px;
+   color:  rgb(0, 0, 0);
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* จัดข้อความกลางแนวนอนในฝั่งซ้าย */
+  text-align: center;
+  padding-left: 5cm;   /* ขยับเข้าทางขวาอีก */
+}
