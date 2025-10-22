@@ -1,0 +1,111 @@
+
+
+
+
+
+   .border-box {
+    border: 5px solid purple; /* กำหนดขนาดกรอบเป็น 5px และใช้สีม่วง */
+    padding: 20px;             /* กำหนดระยะห่างระหว่างกรอบกับเนื้อหาภายใน */
+  }
+
+  .center-div {
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งรูปภาพให้ตรงกลางแนวนอน */
+    align-items: center;     /* จัดตำแหน่งรูปภาพให้ตรงกลางแนวตั้ง */
+    height: 600px;           /* กำหนดความสูงของ div */
+    margin: 0 auto;            /* จัดให้รูปภาพตรงกลางแนวนอน */
+  }
+
+
+  
+  
+  .playpen-sans {
+    font-family: 'Playpen Sans Thai', sans-serif; /* กำหนดฟอนต์ Playpen Sans Thai */
+    color:  white;
+    font-size: 70px;
+  }
+
+  .center-content {
+      text-align: center;
+      margin: 0;
+      padding: 30px;
+    }
+
+     h1 {
+    font-size: 60px; /* กำหนดขนาดตัวอักษรเป็น 50px */
+  }
+     
+   .noto-serif-thai {
+    font-family: 'Noto Serif Thai', serif; /* ใช้ฟอนต์ Noto Serif Thai */
+    font-size: 30px;  /* ขนาดตัวอักษรที่ต้องการ */
+    line-height: 1.5; /* เพิ่มระยะห่างระหว่างบรรทัด */
+  }
+
+    div {
+      margin-bottom: 20px;
+      
+      padding: 10px;  /* เพิ่มพื้นที่ภายใน */
+    }
+
+
+
+    .box-container {
+      display: flex;
+      justify-content: space-between; /* ระยะห่างระหว่างกล่อง */
+      flex-wrap: wrap; /* ให้เรียงต่อกันในแถวถัดไปถ้าจอเล็ก */
+      gap: 20px; /* ช่องว่างระหว่างกล่อง */
+      padding: 20px;
+    }
+
+    .box {
+      flex: 1 1 calc(25% - 20px); /* 4 กล่อง = 25% แต่ลบ gap */
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+
+    .noto {
+       font-family: 'Noto Serif Thai', serif; /* ใช้ฟอนต์ Noto Serif Thai */
+       
+    }
+
+    .notonew {
+       font-family: 'Noto Serif Thai', serif; /* ใช้ฟอนต์ Noto Serif Thai */
+       font-size: 20px;  /* ขนาดตัวอักษรที่ต้องการ */
+    }
+
+     .bg-light-yellow {
+    background-color: #E8AFCB; 
+    
+    
+  
+  }
+
+  .bg-light-navy {
+    background-color: #FFF9C4; 
+  }
+
+  .center-container2 {
+    display: flex;
+    justify-content: center;  /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center;      /* จัดให้อยู่ตรงกลางแนวตั้ง (ถ้ากำหนดความสูง) */
+                  
+    padding: 40px;
+    background-color: #E8AFCB; 
+  }
+
+  .large-text {
+    font-size: 35px;
+    
+  }
+  
+   .small-box {
+     
+      padding: 0;          /* ลบ padding ถ้าไม่ต้องการให้สูง */
+      margin: 0;           /* ลบ margin ด้วยถ้าไม่จำเป็น */
+      
+    }
